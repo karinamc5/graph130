@@ -14,10 +14,12 @@ nav {
     flex-wrap: wrap
 }
 
-nav p {
+nav p, a
+ {
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    color:goldenrod;
 }
 
 header {
