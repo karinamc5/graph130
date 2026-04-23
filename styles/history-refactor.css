@@ -11,7 +11,7 @@ body {
     justify-content: center; /*align horizontal*/
     align-items: center; /*align vertical*/
     height: 100vh;
-    background-image: url(../history\ content/history-hero-bg.jpg);
+    background-image: url(../images/history-hero-bg.jpg);
     background-size: cover;
     background-position: center;
     filter:grayscale(100%)
