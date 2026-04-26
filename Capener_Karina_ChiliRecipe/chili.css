@@ -1,0 +1,32 @@
+body {
+    background-color:#c97522;
+}
+
+.chili-content {
+    background-color:#cccccc;
+    width:700px;
+    padding:10px;
+    margin:auto;
+}
+
+h1, h2, h3 {
+    color:rgb(28, 115, 55);
+}
+
+footer {
+    background-color:rgb(28, 115, 55);
+    color:white;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:5px;
+    clear:both;
+    text-align:center;
+}
+
+li {
+    margin-bottom:10px;
+}
+
+.top-header {
+    text-align:center;
+}
