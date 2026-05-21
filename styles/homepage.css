@@ -41,19 +41,24 @@ nav a {
 } */
 
 .hover-pink:hover {
-    background-color: #ff16b9f5;
+    background:linear-gradient(to right, #ff0a9d, #f37d0e);
     color: white;
 }
 
 .hover-green:hover {
-    background-color: #6abf15;
-    color: white;
+    background:linear-gradient(to right, #faf500, #63b407);
+    color: black;
 }
 
 .hover-blue:hover {
-    background-color: #0074d3;
+    background:linear-gradient(to right, #2196f3, #9114f8);
     color: white;
 }
+
+/* .hover-blue:hover {
+    background-color: #0074d3;
+    color: white;
+} */
 
 aside {
     width: 20%;
