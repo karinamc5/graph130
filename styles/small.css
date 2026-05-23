@@ -24,7 +24,7 @@ header {
 
 .container {
     box-sizing: border-box;
-    padding-left: .8em;
+    padding-left: 0px;
     width: 100%;
     float: none;
 }
@@ -49,7 +49,7 @@ nav a, nav a:link, nav a:visited {
     text-decoration: none;
     background-color:#44a5b5;
     color: white;
-    border: 1px solid white;
+    border-top: 1px solid white;
 }
 
 nav a:hover {
@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 figure {
-    margin-left: 0;
+    margin: 0;
 }
 
 figcaption {
@@ -90,6 +90,10 @@ footer p {
     font-size: .8em;
 }
 
+footer a {
+    color: white;
+}
+
 .image-left, .image-right {
     padding: 1em;
     width: auto;
@@ -115,9 +119,17 @@ h1 {
 h1, h2, h3 {
     padding: .2em 0;
     font-family: "Fredericka the Great", serif;
+    padding-left: .8em;
 }
 
 h3 {
     padding-left: .8em;
 }
 
+h1 {
+    padding-left: .7em; 
+}
+
+h2 {
+    padding-left: .9em;
+}
