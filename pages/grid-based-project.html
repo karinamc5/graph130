@@ -4,7 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Based Project</title>
+    <style>
+        h1, h2, p {
+            padding: 10px;
+        }
+
+        body {
+            background-color: #000000;
+            color:#ffffff;
+        }
+
+        h1, .footer {
+            color:#ff009d;
+        }
+
+        article h2, a {
+            color:#a200ff;
+        }
+
+        p i {
+            color:#00ff40;
+        }
+
+        #picture-help {
+            filter: grayscale(100%);
+        }
+    </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/mobile.css">
 </head>
 <body>
     <div id="nav-placeholder"></div>
@@ -147,12 +174,12 @@
         <section class="pure-g">
             <img src="../images/grid-project-images/insane.jpg" alt="insane image" class="pure-u-1-4">
             <img src="../images/grid-project-images/cd.jpg" alt="cd image" class="pure-u-1-4">
-            <img src="../images/grid-project-images/help.jpg" alt="help image" class="pure-u-1-4"> 
+            <img src="../images/grid-project-images/help.jpg" alt="help image" class="pure-u-1-4" id="picture-help"> 
             <img src="../images/grid-project-images/raveee.jpg" alt="ravee image" class="pure-u-1-4">
         </section>
 
         <section>
-            <p>EvCC | Spring 2026 | Karina Capener</p>
+            <p class="footer">EvCC | Spring 2026 | Karina Capener</p>
         </section>
     </main>
 </body>
