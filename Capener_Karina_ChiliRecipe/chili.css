@@ -30,3 +30,14 @@ li {
 .top-header {
     text-align:center;
 }
+
+.stew1 {
+    float:left; 
+    margin-right:25px; 
+    margin-bottom:10px;
+    width:150px
+}
+
+.big-stew {
+    width:95%;
+}

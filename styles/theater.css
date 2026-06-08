@@ -49,13 +49,13 @@ article p {
     padding-bottom: 10px;
 }
 
-main ul {
+.show-info ul {
     width: 40%;
     padding: 10px;
     align-self: flex-end;
 }
 
-main ul li {
+.show-info li {
     list-style: none;
     padding: 10px;
     margin: 10px;
@@ -64,7 +64,7 @@ main ul li {
 }
 
 nav p:hover,
-main ul li:hover {
+.show-info li:hover {
     background-color: white;
     color: slategray;
 }
