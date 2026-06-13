@@ -119,7 +119,7 @@ article {
     font-size: 25px;
 }
 
-project a {
+.project a {
     padding: 200px;
     text-decoration: none;  
 }
