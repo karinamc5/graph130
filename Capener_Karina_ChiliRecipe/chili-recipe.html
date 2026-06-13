@@ -21,6 +21,14 @@
     </style> -->
 </head>
 <body>
+        <div id="nav-placeholder"></div>
+    <script>
+        fetch('../pages/nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
     <div class="chili-content">
     <h1 class="top-header" style="color:rgb(28, 115, 55); font-size:26px;">Vegetarian Recipe: Pumpkin Chili</h1>
     <h3 class="top-header" style="color:rgb(223, 105, 3);">RECIPES FROM THE KITCHN</h3>

@@ -21,5 +21,3 @@ navbarLinks.classList.toggle('active');
  });
 
  }
-
-// });
